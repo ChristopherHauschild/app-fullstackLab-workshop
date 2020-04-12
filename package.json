@@ -4,16 +4,23 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/ChristopherHauschild/app-fullstackLab-workshop.git"
   },
   "author": "ChristopherHauschild",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/ChristopherHauschild/app-fullstackLab-workshop/issues"
   },
-  "homepage": "https://github.com/ChristopherHauschild/app-fullstackLab-workshop#readme"
+  "homepage": "https://github.com/ChristopherHauschild/app-fullstackLab-workshop#readme",
+  "dependencies": {
+    "next": "^9.3.4",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
 }
