@@ -66,7 +66,16 @@ var Index = function Index() {
       lineNumber: 6,
       columnNumber: 13
     }
-  }, "Home"));
+  }, "Home"), __jsx("a", {
+    href: "/api/login",
+    className: "py-4 px-2 rounded bg-pink-900 font-bold shadow-xl hover:shadow block w-1/4 text-center mx-auto text-white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 7,
+      columnNumber: 13
+    }
+  }, "Comece por aqui"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
