@@ -109,14 +109,21 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 const Index = () => {
-  return __jsx("h1", {
+  return __jsx("div", {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 4,
-      columnNumber: 12
+      lineNumber: 5,
+      columnNumber: 9
     }
-  }, "Hello World!");
+  }, __jsx("h1", {
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 13
+    }
+  }, "Home"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Index);
