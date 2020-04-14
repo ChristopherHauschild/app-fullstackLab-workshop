@@ -5,7 +5,7 @@ import Footer from '../components/footer'
 
 const App = ({ Component, pageProps }) => {
     return (
-        <div>
+        <div className='bg-gray-100'>
             <Header />
             <div className='min-h-screen container mx-auto'>
                 <Component {...pageProps} />

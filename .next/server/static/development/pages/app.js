@@ -234,61 +234,93 @@ const App = props => {
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 20,
+      lineNumber: 21,
       columnNumber: 9
     }
   }, __jsx("h1", {
-    __self: undefined,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 21,
-      columnNumber: 13
-    }
-  }, "Status pr\xF3ximos a voc\xEA"), __jsx("table", {
+    className: "font-sans text-2xl text-black my-12 block text-center",
     __self: undefined,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 22,
       columnNumber: 13
     }
+  }, " Status pr\xF3ximos a voc\xEA"), __jsx("table", {
+    className: "block text-center",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 23,
+      columnNumber: 13
+    }
   }, props.checkins.map(checkin => {
     return __jsx("tr", {
-      __self: undefined,
-      __source: {
-        fileName: _jsxFileName,
-        lineNumber: 26,
-        columnNumber: 29
-      }
-    }, __jsx("td", {
+      className: "font-sans text-2xl text-black block text-center",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 27,
-        columnNumber: 33
+        columnNumber: 29
       }
-    }, checkin.id === props.user.sub && 'Seu status'), __jsx("td", {
+    }, __jsx("td", {
+      className: "block text-center text-pink-800 font-semibold",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 28,
         columnNumber: 33
       }
-    }, checkin.status), __jsx("td", {
+    }, checkin.id === props.user.sub && 'Seu status: '), __jsx("br", {
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 28,
+        columnNumber: 149
+      }
+    }), __jsx("td", {
+      className: "block text-center",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 29,
         columnNumber: 33
       }
-    }, JSON.stringify(checkin.coords)), __jsx("td", {
+    }, checkin.status), __jsx("td", {
+      className: "block text-center",
       __self: undefined,
       __source: {
         fileName: _jsxFileName,
         lineNumber: 30,
         columnNumber: 33
       }
-    }, checkin.distance));
-  })));
+    }, JSON.stringify(checkin.coords)), __jsx("td", {
+      className: "block text-center",
+      __self: undefined,
+      __source: {
+        fileName: _jsxFileName,
+        lineNumber: 31,
+        columnNumber: 33
+      }
+    }, ' Distância: ' + checkin.distance));
+  })), __jsx("a", {
+    href: "/create-status",
+    className: "py-4 px-2 rounded bg-pink-900 font-bold shadow-xl hover:shadow block w-1/4 text-center block mx-auto mt-12 text-white",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 37,
+      columnNumber: 13
+    }
+  }, "Atualizar informa\xE7\xF5es"), __jsx("a", {
+    href: "https://mydailystatus.christopherhauschild.now.sh/",
+    className: "py-4 px-2 rounded bg-pink-900 font-bold shadow-xl hover:shadow block w-1/4 text-center block mx-auto my-20 mt-8 text-white",
+    __self: undefined,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 38,
+      columnNumber: 13
+    }
+  }, "Sair"));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);

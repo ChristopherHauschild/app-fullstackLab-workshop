@@ -59,20 +59,52 @@ var Index = function Index() {
       lineNumber: 5,
       columnNumber: 9
     }
-  }, __jsx("h1", {
+  }, __jsx("p", {
+    className: "font-sans text-2xl font-semibold text-pink-800 text-center mt-20",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 6,
       columnNumber: 13
     }
-  }, "Home"), __jsx("a", {
-    href: "/api/login",
-    className: "py-4 px-2 rounded bg-pink-900 font-bold shadow-xl hover:shadow block w-1/4 text-center mx-auto text-white",
+  }, "Mantenha-se protegido.", __jsx("br", {
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 6,
+      columnNumber: 115
+    }
+  })), __jsx("p", {
+    className: "font-sans text-2xl text-black text-center",
     __self: _this,
     __source: {
       fileName: _jsxFileName,
       lineNumber: 7,
+      columnNumber: 13
+    }
+  }, " Sua comunidade tamb\xE9m."), __jsx("p", {
+    className: "font-sans text-2xl font-semibold text-pink-800 text-center my-16",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 8,
+      columnNumber: 13
+    }
+  }, "Compartilhe como voc\xEA est\xE1."), __jsx("p", {
+    className: "font-sans text-2xl text-black text-center my-16",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 10,
+      columnNumber: 13
+    }
+  }, "Veja como pessoas a seu redor est\xE3o."), __jsx("a", {
+    href: "/api/login",
+    className: "py-4 px-2 rounded bg-pink-900 font-bold shadow-xl hover:shadow block w-1/3 text-center mt-32 mx-auto text-white",
+    __self: _this,
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 11,
       columnNumber: 13
     }
   }, "Comece por aqui"));

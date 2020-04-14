@@ -5,6 +5,7 @@ import { db } from '../lib/db'
 import { distance } from '../lib/geo'
 
 
+
 const App = (props) => {
     useEffect(() => {
         if (!props.isAuth) {
@@ -18,21 +19,23 @@ const App = (props) => {
     }
     return (
         <div>
-            <h1>Status próximos a você</h1>
-            <table>
+            <h1 className='font-sans text-2xl text-black my-12 block text-center'> Status próximos a você</h1>
+            <table className='block text-center'>
                 {
                     props.checkins.map(checkin => {
                         return (
-                            <tr>
-                                <td>{checkin.id === props.user.sub && 'Seu status'}</td>
-                                <td>{checkin.status}</td>
-                                <td>{JSON.stringify(checkin.coords)}</td>
-                                <td>{checkin.distance}</td>
+                            <tr className='font-sans text-2xl text-black block text-center'>
+                                <td className='block text-center text-pink-800 font-semibold'>{checkin.id === props.user.sub && 'Seu status: '}</td><br/>
+                                <td className='block text-center'>{checkin.status}</td>
+                                <td className='block text-center'>{JSON.stringify(checkin.coords)}</td>
+                                <td className='block text-center'>{' Distância: ' + checkin.distance}</td>
                             </tr>
                         )
                     })
                 }
             </table>
+            <a href='/create-status' className='py-4 px-2 rounded bg-pink-900 font-bold shadow-xl hover:shadow block w-1/4 text-center block mx-auto mt-12 text-white'>Atualizar informações</a>
+            <a href='https://mydailystatus.christopherhauschild.now.sh/' className='py-4 px-2 rounded bg-pink-900 font-bold shadow-xl hover:shadow block w-1/4 text-center block mx-auto my-20 mt-8 text-white'>Sair</a>
         </div>
     )
 }
