@@ -2,6 +2,7 @@
 Aplicativo web desenvolvido durante workshop disponibilizado pelo mestre em S.I Tulio Faria, através da plataforma DevPleno
 
 O que é o projeto?
+
 Com a aplicação, o usuário poderá fazer um registro diário do seu estado de saúde durante a pandemia de COVID-19 e também acompanhar os registros de seus familiares e amigos.
 
 ## Tecnologias e linguagens utilizadas no projeto:
