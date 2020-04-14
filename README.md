@@ -18,7 +18,7 @@ Com a aplicação, o usuário poderá fazer um registro diário do seu estado de
 <li>React</li>
 </ul>
 
-Como rodar o projeto:
+### Como rodar o projeto:
 
 Faça um clone do repositório.
 
