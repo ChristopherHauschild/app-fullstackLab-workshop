@@ -8,7 +8,7 @@ Com a aplicação, o usuário poderá fazer um registro diário do seu estado de
 <hr>
 
 <p align="center">
-  <img width="1000px" src="https://github.com/ChristopherHauschild/app-fullstackLab-workshop/blob/master/mdl.png?raw=true">
+  <img width="800px" src="https://github.com/ChristopherHauschild/app-fullstackLab-workshop/blob/master/mdl.png?raw=true">
  </p>
 
 ## Tecnologias e linguagens utilizadas no projeto:
