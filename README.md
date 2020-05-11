@@ -5,6 +5,12 @@ O que é o projeto?
 
 Com a aplicação, o usuário poderá fazer um registro diário do seu estado de saúde durante a pandemia de COVID-19 e também acompanhar os registros de seus familiares e amigos.
 
+<hr>
+
+<p align="center">
+  <img width="1000px" src="https://github.com/ChristopherHauschild/app-fullstackLab-workshop/blob/master/mdl.png?raw=true">
+ </p>
+
 ## Tecnologias e linguagens utilizadas no projeto:
 
 <ul>
