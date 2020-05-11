@@ -35,5 +35,5 @@ Rode o comando npm run dev, para rodar o projeto em http://localhost:3000
 Ver o projeto funcionando
 Se quiser ver o projeto funcionando em produção, acesse o link https://mydailystatus.christopherhauschild.now.sh/
 
-Projeto aprimorado após horas na frente do computador por <a href="https://github.com/ChristopherHauschild"> Christopher Hauschild Schott </a>
+Projeto aprimorado após horas na frente do :computer: por <a href="https://github.com/ChristopherHauschild"> Christopher Hauschild Schott </a>
 
