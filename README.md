@@ -27,11 +27,11 @@ Com a aplicação, o usuário poderá fazer um registro diário do seu estado de
 
 ## Como rodar o projeto: :rocket:
 
-``Faça um clone do repositório.
+``Faça um clone do repositório. ``
 
-Rode o comando npm install, para instalar as dependencias do projeto no seu dispositivo.
+``Rode o comando npm install, para instalar as dependencias do projeto no seu dispositivo.``
 
-Rode o comando npm run dev, para rodar o projeto em http://localhost:3000.``
+``Rode o comando npm run dev, para rodar o projeto em http://localhost:3000.``
 
 
 ### Maiores informações: :pencil:
