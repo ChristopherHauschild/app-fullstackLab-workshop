@@ -25,12 +25,13 @@ Com a aplicação, o usuário poderá fazer um registro diário do seu estado de
 <li>React</li>
 </ul>
 
-### Como rodar o projeto:
-
+### Como rodar o projeto: :rocket:
+<div .bg-purple-light>
 Faça um clone do repositório.
 
 Rode o comando npm install, para instalar as dependencias do projeto no seu dispositivo.
 Rode o comando npm run dev, para rodar o projeto em http://localhost:3000
+</div>
 
 Ver o projeto funcionando
 Se quiser ver o projeto funcionando em produção, acesse o link https://mydailystatus.christopherhauschild.now.sh/
