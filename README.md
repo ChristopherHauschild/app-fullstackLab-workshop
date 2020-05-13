@@ -26,7 +26,7 @@ Com a aplicação, o usuário poderá fazer um registro diário do seu estado de
 </ul>
 
 ### Como rodar o projeto: :rocket:
-<div .bg-purple-light>
+<div $bg-purple-light>
 Faça um clone do repositório.
 
 Rode o comando npm install, para instalar as dependencias do projeto no seu dispositivo.
